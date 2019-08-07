@@ -65,7 +65,7 @@ public class GuardianReader {
 		//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		//--------------------------------------------------------------------------------------------------------------------------------------------------------------
-		//Laed die Seiten 201 - 210 � 50 Artikel runter - Zum Testen des Klassifikators
+		//Laed die Seiten 201 - 210 à 50 Artikel runter - Zum Testen des Klassifikators
 		for(int i = 201; i <= 210; i++) {
 			try {
 				URL url = new URL("https://content.guardianapis.com/"+ section +"?show-fields=bodyText&page=" + i + "&page-size=" + pageSize + "&api-key=" + apikey);
